@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1288BB022138E5CC00AFB495 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB012138E5CC00AFB495 /* main.swift */; };
+		1288BB092138E5F300AFB495 /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB082138E5F300AFB495 /* Executor.swift */; };
+		1288BB162138E94600AFB495 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB0B2138E94500AFB495 /* Color.swift */; };
+		1288BB172138E94600AFB495 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB0C2138E94600AFB495 /* CodesParser.swift */; };
+		1288BB182138E94600AFB495 /* XcodeColorsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB0D2138E94600AFB495 /* XcodeColorsSupport.swift */; };
+		1288BB192138E94600AFB495 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB0E2138E94600AFB495 /* OutputTarget.swift */; };
+		1288BB1A2138E94600AFB495 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB0F2138E94600AFB495 /* ModesExtractor.swift */; };
+		1288BB1B2138E94600AFB495 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB102138E94600AFB495 /* StringGenerator.swift */; };
+		1288BB1C2138E94600AFB495 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB112138E94600AFB495 /* ControlCode.swift */; };
+		1288BB1D2138E94600AFB495 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB122138E94600AFB495 /* Style.swift */; };
+		1288BB1E2138E94600AFB495 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB132138E94600AFB495 /* String+Rainbow.swift */; };
+		1288BB1F2138E94600AFB495 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB142138E94600AFB495 /* Rainbow.swift */; };
+		1288BB202138E94600AFB495 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB152138E94600AFB495 /* BackgroundColor.swift */; };
+		1288BB222138ED1400AFB495 /* BinaryMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB212138ED1400AFB495 /* BinaryMaker.swift */; };
+		1288BB252138EE0800AFB495 /* FileManager+ListFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB242138EE0800AFB495 /* FileManager+ListFiles.swift */; };
+		1288BB272138EF8A00AFB495 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB262138EF8A00AFB495 /* Logger.swift */; };
+		1288BB29213907B000AFB495 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB28213907B000AFB495 /* Timer.swift */; };
+		1288BB2B2139214100AFB495 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288BB2A2139214100AFB495 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +42,23 @@
 /* Begin PBXFileReference section */
 		1288BAFE2138E5CC00AFB495 /* MakeBinaries */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MakeBinaries; sourceTree = BUILT_PRODUCTS_DIR; };
 		1288BB012138E5CC00AFB495 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1288BB082138E5F300AFB495 /* Executor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executor.swift; sourceTree = "<group>"; };
+		1288BB0B2138E94500AFB495 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1288BB0C2138E94600AFB495 /* CodesParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodesParser.swift; sourceTree = "<group>"; };
+		1288BB0D2138E94600AFB495 /* XcodeColorsSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XcodeColorsSupport.swift; sourceTree = "<group>"; };
+		1288BB0E2138E94600AFB495 /* OutputTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputTarget.swift; sourceTree = "<group>"; };
+		1288BB0F2138E94600AFB495 /* ModesExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModesExtractor.swift; sourceTree = "<group>"; };
+		1288BB102138E94600AFB495 /* StringGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
+		1288BB112138E94600AFB495 /* ControlCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCode.swift; sourceTree = "<group>"; };
+		1288BB122138E94600AFB495 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		1288BB132138E94600AFB495 /* String+Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
+		1288BB142138E94600AFB495 /* Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
+		1288BB152138E94600AFB495 /* BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		1288BB212138ED1400AFB495 /* BinaryMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryMaker.swift; sourceTree = "<group>"; };
+		1288BB242138EE0800AFB495 /* FileManager+ListFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+ListFiles.swift"; sourceTree = "<group>"; };
+		1288BB262138EF8A00AFB495 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		1288BB28213907B000AFB495 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		1288BB2A2139214100AFB495 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +91,42 @@
 		1288BB002138E5CC00AFB495 /* MakeBinaries */ = {
 			isa = PBXGroup;
 			children = (
+				1288BB232138EDF800AFB495 /* Extensions */,
+				1288BB0A2138E8F800AFB495 /* Rainbow */,
 				1288BB012138E5CC00AFB495 /* main.swift */,
+				1288BB082138E5F300AFB495 /* Executor.swift */,
+				1288BB212138ED1400AFB495 /* BinaryMaker.swift */,
+				1288BB262138EF8A00AFB495 /* Logger.swift */,
+				1288BB28213907B000AFB495 /* Timer.swift */,
+				1288BB2A2139214100AFB495 /* Configuration.swift */,
 			);
 			path = MakeBinaries;
+			sourceTree = "<group>";
+		};
+		1288BB0A2138E8F800AFB495 /* Rainbow */ = {
+			isa = PBXGroup;
+			children = (
+				1288BB152138E94600AFB495 /* BackgroundColor.swift */,
+				1288BB0C2138E94600AFB495 /* CodesParser.swift */,
+				1288BB0B2138E94500AFB495 /* Color.swift */,
+				1288BB112138E94600AFB495 /* ControlCode.swift */,
+				1288BB0F2138E94600AFB495 /* ModesExtractor.swift */,
+				1288BB0E2138E94600AFB495 /* OutputTarget.swift */,
+				1288BB142138E94600AFB495 /* Rainbow.swift */,
+				1288BB132138E94600AFB495 /* String+Rainbow.swift */,
+				1288BB102138E94600AFB495 /* StringGenerator.swift */,
+				1288BB122138E94600AFB495 /* Style.swift */,
+				1288BB0D2138E94600AFB495 /* XcodeColorsSupport.swift */,
+			);
+			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		1288BB232138EDF800AFB495 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1288BB242138EE0800AFB495 /* FileManager+ListFiles.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +186,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1288BB092138E5F300AFB495 /* Executor.swift in Sources */,
+				1288BB182138E94600AFB495 /* XcodeColorsSupport.swift in Sources */,
+				1288BB1A2138E94600AFB495 /* ModesExtractor.swift in Sources */,
 				1288BB022138E5CC00AFB495 /* main.swift in Sources */,
+				1288BB162138E94600AFB495 /* Color.swift in Sources */,
+				1288BB252138EE0800AFB495 /* FileManager+ListFiles.swift in Sources */,
+				1288BB222138ED1400AFB495 /* BinaryMaker.swift in Sources */,
+				1288BB272138EF8A00AFB495 /* Logger.swift in Sources */,
+				1288BB172138E94600AFB495 /* CodesParser.swift in Sources */,
+				1288BB1F2138E94600AFB495 /* Rainbow.swift in Sources */,
+				1288BB1C2138E94600AFB495 /* ControlCode.swift in Sources */,
+				1288BB1E2138E94600AFB495 /* String+Rainbow.swift in Sources */,
+				1288BB2B2139214100AFB495 /* Configuration.swift in Sources */,
+				1288BB1B2138E94600AFB495 /* StringGenerator.swift in Sources */,
+				1288BB202138E94600AFB495 /* BackgroundColor.swift in Sources */,
+				1288BB192138E94600AFB495 /* OutputTarget.swift in Sources */,
+				1288BB1D2138E94600AFB495 /* Style.swift in Sources */,
+				1288BB29213907B000AFB495 /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
